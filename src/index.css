@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.bg-button {
+  background-color: rgb(97, 97, 182);
+}
+
+.form__close {
+  transform: scale(0);
+}
+
+.btn__off {
+  transform: scale(0);
+}
+
+@layer utilities {
+  .grayscale-50 {
+    filter: grayscale(0.5);
+  }
+}
+
+
+@layer utilities {
+  .grayscale-0 {
+    filter: grayscale(0);
+  }
+}
+
+@layer utilities {
+  .form-shadow {
+    box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.5);
+  }
+}
