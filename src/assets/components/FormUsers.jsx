@@ -38,7 +38,7 @@ const FormUsers = ({
 
   return (
     <form
-      className="w-full relative max-w-[350px] bg-white pt-[2em] px-[1.5em] pb-[2.5em] rounded-[0.7em] form-shadow"
+      className="w-full relative max-w-[350px] bg-white pt-[0.5em] px-[1.5em] pb-[2.5em] rounded-[0.7em] form-shadow"
       onSubmit={handleSubmit(submit)}
     >
       <h2 className="text-3xl text-center text-blue-950 mb-[1em] font-bold capitalize">
@@ -106,7 +106,7 @@ const FormUsers = ({
           type="date"
         />
       </div>
-      <button className="text-[1.2rem] block w-full py-[0.5em] px-[1em] rounded-[0.5em] bg-button text-white cursor-pointer grayscale-50 mt-[2em] hover:grayscale-0">
+      <button className="text-[1.2rem] block w-full py-[0.5em] px-[1em] rounded-[0.5em] bg-button text-white cursor-pointer grayscale-50 mt-[1em] hover:grayscale-0">
         {updateInfo ? "Update" : "Create"}
       </button>
     </form>
